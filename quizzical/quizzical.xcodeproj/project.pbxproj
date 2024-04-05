@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA3EED82BBE30A200ADCFB1 /* quizzicalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EED72BBE30A200ADCFB1 /* quizzicalApp.swift */; };
+		CEA3EEDA2BBE30A200ADCFB1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EED92BBE30A200ADCFB1 /* GameView.swift */; };
+		CEA3EEDC2BBE30A800ADCFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3EEDB2BBE30A800ADCFB1 /* Assets.xcassets */; };
+		CEA3EEDF2BBE30A800ADCFB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3EEDE2BBE30A800ADCFB1 /* Preview Assets.xcassets */; };
+		CEB07A732BBF6907003639B2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB07A722BBF6907003639B2 /* Question.swift */; };
+		CEB07A752BBF6C8D003639B2 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB07A742BBF6C8D003639B2 /* ChoiceTextView.swift */; };
+		CEB07A772BBF73F5003639B2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB07A762BBF73F5003639B2 /* Game.swift */; };
+		CED46A252BC08A5700BA5D04 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED46A242BC08A5700BA5D04 /* WelcomeView.swift */; };
+		CEDD90F92BC09832006C35F9 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD90F82BC09832006C35F9 /* GameColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEA3EED42BBE30A200ADCFB1 /* quizzical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizzical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA3EED72BBE30A200ADCFB1 /* quizzicalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizzicalApp.swift; sourceTree = "<group>"; };
+		CEA3EED92BBE30A200ADCFB1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CEA3EEDB2BBE30A800ADCFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA3EEDE2BBE30A800ADCFB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB07A722BBF6907003639B2 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = quizzical/Model/Question.swift; sourceTree = SOURCE_ROOT; };
+		CEB07A742BBF6C8D003639B2 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		CEB07A762BBF73F5003639B2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CED46A242BC08A5700BA5D04 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CEDD90F82BC09832006C35F9 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA3EED12BBE30A200ADCFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA3EECB2BBE30A100ADCFB1 = {
+			isa = PBXGroup;
+			children = (
+				CEA3EED62BBE30A200ADCFB1 /* quizzical */,
+				CEA3EED52BBE30A200ADCFB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA3EED52BBE30A200ADCFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3EED42BBE30A200ADCFB1 /* quizzical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA3EED62BBE30A200ADCFB1 /* quizzical */ = {
+			isa = PBXGroup;
+			children = (
+				CEB07A792BBF742C003639B2 /* View */,
+				CEB07A782BBF7412003639B2 /* Model */,
+				CEA3EED72BBE30A200ADCFB1 /* quizzicalApp.swift */,
+				CEA3EEDB2BBE30A800ADCFB1 /* Assets.xcassets */,
+				CEA3EEDD2BBE30A800ADCFB1 /* Preview Content */,
+			);
+			path = quizzical;
+			sourceTree = "<group>";
+		};
+		CEA3EEDD2BBE30A800ADCFB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3EEDE2BBE30A800ADCFB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEB07A782BBF7412003639B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB07A722BBF6907003639B2 /* Question.swift */,
+				CEB07A762BBF73F5003639B2 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEB07A792BBF742C003639B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3EED92BBE30A200ADCFB1 /* GameView.swift */,
+				CEB07A742BBF6C8D003639B2 /* ChoiceTextView.swift */,
+				CED46A242BC08A5700BA5D04 /* WelcomeView.swift */,
+				CEDD90F82BC09832006C35F9 /* GameColor.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA3EED32BBE30A200ADCFB1 /* quizzical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA3EEE22BBE30A800ADCFB1 /* Build configuration list for PBXNativeTarget "quizzical" */;
+			buildPhases = (
+				CEA3EED02BBE30A200ADCFB1 /* Sources */,
+				CEA3EED12BBE30A200ADCFB1 /* Frameworks */,
+				CEA3EED22BBE30A200ADCFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quizzical;
+			productName = quizzical;
+			productReference = CEA3EED42BBE30A200ADCFB1 /* quizzical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA3EECC2BBE30A200ADCFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEA3EED32BBE30A200ADCFB1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CEA3EECF2BBE30A200ADCFB1 /* Build configuration list for PBXProject "quizzical" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA3EECB2BBE30A100ADCFB1;
+			productRefGroup = CEA3EED52BBE30A200ADCFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA3EED32BBE30A200ADCFB1 /* quizzical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA3EED22BBE30A200ADCFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3EEDF2BBE30A800ADCFB1 /* Preview Assets.xcassets in Resources */,
+				CEA3EEDC2BBE30A800ADCFB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA3EED02BBE30A200ADCFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB07A732BBF6907003639B2 /* Question.swift in Sources */,
+				CED46A252BC08A5700BA5D04 /* WelcomeView.swift in Sources */,
+				CEB07A772BBF73F5003639B2 /* Game.swift in Sources */,
+				CEA3EEDA2BBE30A200ADCFB1 /* GameView.swift in Sources */,
+				CEDD90F92BC09832006C35F9 /* GameColor.swift in Sources */,
+				CEB07A752BBF6C8D003639B2 /* ChoiceTextView.swift in Sources */,
+				CEA3EED82BBE30A200ADCFB1 /* quizzicalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEA3EEE02BBE30A800ADCFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA3EEE12BBE30A800ADCFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA3EEE32BBE30A800ADCFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"quizzical/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RFBW7F5HY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sade.quizzical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA3EEE42BBE30A800ADCFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"quizzical/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RFBW7F5HY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sade.quizzical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA3EECF2BBE30A200ADCFB1 /* Build configuration list for PBXProject "quizzical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3EEE02BBE30A800ADCFB1 /* Debug */,
+				CEA3EEE12BBE30A800ADCFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA3EEE22BBE30A800ADCFB1 /* Build configuration list for PBXNativeTarget "quizzical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3EEE32BBE30A800ADCFB1 /* Debug */,
+				CEA3EEE42BBE30A800ADCFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA3EECC2BBE30A200ADCFB1 /* Project object */;
+}
