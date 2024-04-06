@@ -16,12 +16,11 @@ struct WelcomeView: View {
                 mainColor.ignoresSafeArea()
                 VStack(alignment: .center, content: {
                     
-                    Text("Welcome to Quizzical!")
+                    Text("Welcome to Quizzical")
                         .font(.largeTitle)
                         .bold()
-                        .padding(.bottom, 400)
+                        .padding(.bottom, 500)
                     Text("Select the correct answers to the following questions.")
-                        .multilineTextAlignment(.center)
                 }).foregroundColor(.white)
                 Spacer()
                 NavigationLink("Let's Play", destination: GameView())

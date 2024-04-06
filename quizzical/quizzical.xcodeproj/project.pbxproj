@@ -14,8 +14,10 @@
 		CEB07A732BBF6907003639B2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB07A722BBF6907003639B2 /* Question.swift */; };
 		CEB07A752BBF6C8D003639B2 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB07A742BBF6C8D003639B2 /* ChoiceTextView.swift */; };
 		CEB07A772BBF73F5003639B2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB07A762BBF73F5003639B2 /* Game.swift */; };
+		CEB1F3AA2BC1077A00A7D2E6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1F3A92BC1077A00A7D2E6 /* GameViewModel.swift */; };
 		CED46A252BC08A5700BA5D04 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED46A242BC08A5700BA5D04 /* WelcomeView.swift */; };
 		CEDD90F92BC09832006C35F9 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD90F82BC09832006C35F9 /* GameColor.swift */; };
+		CEFC27932BC1D17200277735 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC27922BC1D17200277735 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +29,10 @@
 		CEB07A722BBF6907003639B2 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = quizzical/Model/Question.swift; sourceTree = SOURCE_ROOT; };
 		CEB07A742BBF6C8D003639B2 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		CEB07A762BBF73F5003639B2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CEB1F3A92BC1077A00A7D2E6 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		CED46A242BC08A5700BA5D04 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CEDD90F82BC09832006C35F9 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		CEFC27922BC1D17200277735 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		CEA3EED62BBE30A200ADCFB1 /* quizzical */ = {
 			isa = PBXGroup;
 			children = (
+				CEB1F3A82BC1076100A7D2E6 /* ViewModel */,
 				CEB07A792BBF742C003639B2 /* View */,
 				CEB07A782BBF7412003639B2 /* Model */,
 				CEA3EED72BBE30A200ADCFB1 /* quizzicalApp.swift */,
@@ -94,8 +99,17 @@
 				CEB07A742BBF6C8D003639B2 /* ChoiceTextView.swift */,
 				CED46A242BC08A5700BA5D04 /* WelcomeView.swift */,
 				CEDD90F82BC09832006C35F9 /* GameColor.swift */,
+				CEFC27922BC1D17200277735 /* QuestionView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CEB1F3A82BC1076100A7D2E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1F3A92BC1077A00A7D2E6 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFC27932BC1D17200277735 /* QuestionView.swift in Sources */,
+				CEB1F3AA2BC1077A00A7D2E6 /* GameViewModel.swift in Sources */,
 				CEB07A732BBF6907003639B2 /* Question.swift in Sources */,
 				CED46A252BC08A5700BA5D04 /* WelcomeView.swift in Sources */,
 				CEB07A772BBF73F5003639B2 /* Game.swift in Sources */,
