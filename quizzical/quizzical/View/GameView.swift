@@ -25,6 +25,7 @@ struct GameView: View {
                     .multilineTextAlignment(.center)
                     .padding()
                     .foregroundColor(.white)
+                    .navigationBarBackButtonHidden(true)
                 QuestionView(question: viewModel.currentQuestion)
                     .environmentObject(viewModel)
                 Spacer()

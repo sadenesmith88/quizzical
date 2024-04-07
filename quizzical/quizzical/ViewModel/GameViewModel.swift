@@ -34,4 +34,19 @@ class GameViewModel: ObservableObject {
     func displayNextScreen() {
         game.updateGameStatus()
     }
+    //takes in an index as a parameter and returns a color
+    func color(forOptionIndex optionIndex: Int) -> Color {
+        //check if user has made a guess
+        if let guessedIndex = game.guesses[currentQuestion] {
+            //use conditionals to check if users guessed index is equal to the correct answer index, if so, display a color
+            if guessedIndex != optionIndex {
+                return GameColor.mainColor
+            } else if guessedIndex == currentQuestion.correctAnswerIndex {
+                return GameColor.correctGuess
+            } else {
+                return GameColor.incorrectGuess
+            }
+        }
+        else { return GameColor.mainColor }
+    }
 }
