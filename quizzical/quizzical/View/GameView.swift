@@ -26,7 +26,7 @@ struct GameView: View {
                     .padding()
                     .foregroundColor(.white)
                 QuestionView(question: viewModel.currentQuestion)
-                
+                    .environmentObject(viewModel)
                 Spacer()
             }
         }

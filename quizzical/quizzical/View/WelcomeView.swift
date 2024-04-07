@@ -23,7 +23,11 @@ struct WelcomeView: View {
                     Text("Select the correct answers to the following questions.")
                 }).foregroundColor(.white)
                 Spacer()
-                NavigationLink("Let's Play", destination: GameView())
+                NavigationLink {
+                    GameView()
+                } label: {
+                    ButtonTextView(str:"Let's Play")
+                }
                     .bold()
                     .font(.title)
                     .frame(width: 200, height: 75)
