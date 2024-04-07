@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2B568E2BC2489600A7723C /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B568D2BC2489600A7723C /* ScoreView.swift */; };
+		CE2B56902BC252C700A7723C /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B568F2BC252C700A7723C /* ScoreViewModel.swift */; };
 		CE503C262BC2156700910C0B /* ButtonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE503C252BC2156600910C0B /* ButtonTextView.swift */; };
 		CEA3EED82BBE30A200ADCFB1 /* quizzicalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EED72BBE30A200ADCFB1 /* quizzicalApp.swift */; };
 		CEA3EEDA2BBE30A200ADCFB1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EED92BBE30A200ADCFB1 /* GameView.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2B568D2BC2489600A7723C /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		CE2B568F2BC252C700A7723C /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		CE503C252BC2156600910C0B /* ButtonTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTextView.swift; sourceTree = "<group>"; };
 		CEA3EED42BBE30A200ADCFB1 /* quizzical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizzical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA3EED72BBE30A200ADCFB1 /* quizzicalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizzicalApp.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				CEDD90F82BC09832006C35F9 /* GameColor.swift */,
 				CEFC27922BC1D17200277735 /* QuestionView.swift */,
 				CE503C252BC2156600910C0B /* ButtonTextView.swift */,
+				CE2B568D2BC2489600A7723C /* ScoreView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB1F3A92BC1077A00A7D2E6 /* GameViewModel.swift */,
+				CE2B568F2BC252C700A7723C /* ScoreViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -188,10 +194,12 @@
 				CEFC27932BC1D17200277735 /* QuestionView.swift in Sources */,
 				CEB1F3AA2BC1077A00A7D2E6 /* GameViewModel.swift in Sources */,
 				CEB07A732BBF6907003639B2 /* Question.swift in Sources */,
+				CE2B56902BC252C700A7723C /* ScoreViewModel.swift in Sources */,
 				CED46A252BC08A5700BA5D04 /* WelcomeView.swift in Sources */,
 				CEB07A772BBF73F5003639B2 /* Game.swift in Sources */,
 				CEA3EEDA2BBE30A200ADCFB1 /* GameView.swift in Sources */,
 				CEDD90F92BC09832006C35F9 /* GameColor.swift in Sources */,
+				CE2B568E2BC2489600A7723C /* ScoreView.swift in Sources */,
 				CEB07A752BBF6C8D003639B2 /* ChoiceTextView.swift in Sources */,
 				CEA3EED82BBE30A200ADCFB1 /* quizzicalApp.swift in Sources */,
 				CE503C262BC2156700910C0B /* ButtonTextView.swift in Sources */,
